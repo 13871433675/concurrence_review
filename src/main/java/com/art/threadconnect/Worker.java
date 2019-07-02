@@ -1,4 +1,4 @@
-package com.art;
+package com.art.threadconnect;
 
 class Worker implements Runnable {
 

@@ -1,6 +1,4 @@
-package com.art;
-
-import javafx.concurrent.Worker;
+package com.art.threadconnect;
 
 /**
  * @Description: Join方法的使用
@@ -13,7 +11,7 @@ import javafx.concurrent.Worker;
  */
 public class JoinTest {
     public static void main(String[] args) throws InterruptedException {
-        Thread t = new Thread(new com.art.Worker("Thread01"));
+        Thread t = new Thread(new com.art.threadconnect.Worker("Thread01"));
 
         t.start();
         t.join();
